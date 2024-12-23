@@ -1,5 +1,5 @@
 module.exports = {
-  "token": "MTMxNzUzNzYxNDc5MzgwMTc5OQ.GecihD.p41zfNmXgkc3peCH4A-gPpTX9UrZEyubZGtrMc",
+  "token": "MTMxNzUzNzYxNDc5MzgwMTc5OQ.G0PSih.U69_EVmjEte1Zx5JbVSw5ZctcUNUUDiihoouAg",
   "prefix": "&",
   "buyers": ["1268356076504617037"],
   "footerText": "Wazaaa",

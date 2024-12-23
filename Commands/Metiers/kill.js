@@ -58,7 +58,7 @@ exports.run = async (bot, message, args, config, data) => {
                         embeds: [new Discord.EmbedBuilder()
                             .setColor(data.color)
                             .setDescription(`:bank: Vous n'avez pas réussi à tuer **${user.user.username}** !`)
-                            .setImage('https://media.discordapp.net/attachments/1249042420163674153/1249967028647755886/robbers_losers_04.gif?ex=66693a02&is=6667e882&hm=62d1c74daffe404de8b51d440765b74e4e26a347d898b2e736926e2716e8a9d8&=&width=898&height=415')
+                            .setImage('https://cdn.discordapp.com/attachments/1310338898706300960/1320874799098101800/f7bdeac7712bed5295ca8706357edd6b.jpg?ex=676b3004&is=6769de84&hm=812fb2aaf561c72245ddf8eaf760aebb9bc12de46961f4b998123be472907483&')
                             .setFooter({ text: `${message.member.user.username}`, iconURL: `${message.member.user.displayAvatarURL({ dynamic: true })}` })]
                     })
                 }
@@ -72,7 +72,7 @@ exports.run = async (bot, message, args, config, data) => {
                 let embed = new Discord.EmbedBuilder()
                     .setDescription(`:white_check_mark: Vous avez tué ${user} et repartez avec \`${random} rep\` en plus`)
                     .setColor(data.color)
-                    .setImage('https://media.discordapp.net/attachments/1249042420163674153/1249967185825239040/among-us-kill.gif?ex=66693a28&is=6667e8a8&hm=424c086d227b8cc6ce64e218ae52eec56392364ad53b493b6e9b3c4c931deee1&=&width=896&height=503')
+                    .setImage('https://cdn.discordapp.com/attachments/1310338898706300960/1320874799098101800/f7bdeac7712bed5295ca8706357edd6b.jpg?ex=676b3004&is=6769de84&hm=812fb2aaf561c72245ddf8eaf760aebb9bc12de46961f4b998123be472907483&')
                     .setFooter({ text: `${message.member.user.username}`, iconURL: `${message.member.user.displayAvatarURL({ dynamic: true })}` });
                 message.channel.send({ embeds: [embed] })
                 bot.functions.removeCoins(bot, message, args, user.id, random, 'rep')

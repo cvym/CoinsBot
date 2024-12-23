@@ -23,7 +23,7 @@ exports.run = async (bot, message, args, config, data) => {
         let streamgain = gains.streamgain
         let camgain = gains.camgain
 
-        let page0 = embed(':bust_in_silhouette: **• Serveur Informations**', `> :loud_sound: Vous gagnez \`${voicegain} coins\` toutes les 15 minutes lorsque vous êtes en vocal \n> :movie_camera: Vous gagnez \`${streamgain} coins\` lorsque vous êtes en stream \n> :video_camera: Et vous gagnez \`${camgain} coins\` lorsque vous activez votre caméra !\n\n[\`Support du bot\`](https://discord.gg/7hDfsSZeCK)  |  [\`Lien pour m'ajouter\`](https://discord.com/oauth2/authorize?bot_id=${bot.user.id}&scope=bot&permissions=8) | [\`Vote pour CoinsBot\`](https://discord.gg/7hDfsSZeCK)\n\n_Appuyez sur les flèches ci-dessous pour changer de page !_`, undefined, "https://media.discordapp.net/attachments/1249042420163674153/1250167077378195526/10056.gif?ex=6669f452&is=6668a2d2&hm=435b6f81e5461dc8259ed9a78e8e2245f07fdb48540ad861ab2ef705b8a15cf1&=&width=764&height=35")
+        let page0 = embed(':bust_in_silhouette: **• Serveur Informations**', `> :loud_sound: Vous gagnez \`${voicegain} coins\` toutes les 15 minutes lorsque vous êtes en vocal \n> :movie_camera: Vous gagnez \`${streamgain} coins\` lorsque vous êtes en stream \n> :video_camera: Et vous gagnez \`${camgain} coins\` lorsque vous activez votre caméra !\n\n[\`Serveur\`](https://discord.gg/wazaaa)  | \n_Appuyez sur les flèches ci-dessous pour changer de page !_`, undefined, "https://media.discordapp.net/attachments/1249042420163674153/1250167077378195526/10056.gif?ex=6669f452&is=6668a2d2&hm=435b6f81e5461dc8259ed9a78e8e2245f07fdb48540ad861ab2ef705b8a15cf1&=&width=764&height=35")
         let page1 = embed(':moneybag:  **• Casino**', undefined, subFolders[4])
         let page2 = embed(':game_die: **• Jeux**', undefined, subFolders[7])
         let page3 = embed(':black_joker: **• Cartes**', undefined, subFolders[3])
@@ -111,7 +111,7 @@ exports.run = async (bot, message, args, config, data) => {
         const embed = new Discord.EmbedBuilder()
             .setColor(data.color)
 
-            .setAuthor({ name: "Page d'aide de la commande " + args[0], iconURL: "https://media.discordapp.net/attachments/1249042420163674153/1250181494903931001/746614051601252373.png?ex=666a01bf&is=6668b03f&hm=497032e9d771eae49b587f1cd22d3f0f3daceb50b8c87341315005564a8f3f2b&=&format=webp&quality=lossless&width=230&height=230" })
+            .setAuthor({ name: "Page d'aide de la commande " + args[0], iconURL: "https://media.discordapp.net/attachments/1300616641369079819/1320839796775456840/f95a8292c1dd5a9d93229f116ee2f8f3.jpg?ex=676b0f6b&is=6769bdeb&hm=99befc31488745477861ab0a828be22d8f1ae9f5b5363cdbcaba70ae2f2426d3&=&format=webp" })
 
         let command = bot.commands.get(args[0].toLowerCase())
         if (!command) return message.channel.send(":x: Commande innexistante !")

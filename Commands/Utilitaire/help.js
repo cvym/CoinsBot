@@ -111,7 +111,7 @@ exports.run = async (bot, message, args, config, data) => {
         const embed = new Discord.EmbedBuilder()
             .setColor(data.color)
 
-            .setAuthor({ name: "Page d'aide de la commande " + args[0], iconURL: "https://media.discordapp.net/attachments/1300616641369079819/1320839796775456840/f95a8292c1dd5a9d93229f116ee2f8f3.jpg?ex=676b0f6b&is=6769bdeb&hm=99befc31488745477861ab0a828be22d8f1ae9f5b5363cdbcaba70ae2f2426d3&=&format=webp" })
+            .setAuthor({ name: "Page d'aide de la commande " + args[0], iconURL: "https://media.discordapp.net/attachments/1310033382725521488/1320878093832949871/f95a8292c1dd5a9d93229f116ee2f8f3.jpg?ex=676b3316&is=6769e196&hm=64ee69d973e68d9aad99468ee1cfc9148db308438729ca09596b3c62775f6da5&=&format=webp" })
 
         let command = bot.commands.get(args[0].toLowerCase())
         if (!command) return message.channel.send(":x: Commande innexistante !")

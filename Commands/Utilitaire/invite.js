@@ -10,6 +10,6 @@ exports.help = {
 exports.run = async (bot, message, args, config, data) => {
     let embed = new Discord.EmbedBuilder()
     .setColor(data.color)
-    .setDescription(`[\`Support du bot\`](https://discord.gg/7hDfsSZeCK)  |  [\`Lien pour ajouter ${bot.user.username}\`](https://discord.com/oauth2/authorize?client_id=${bot.user.id}&scope=bot&permissions=8) | [\`Vote pour ${bot.user.username}\`](https://discord.gg/7hDfsSZeCK)`)
+    .setDescription(`[\`Support du bot\`](https://discord.gg/wazaaa)`)
     return message.reply({ embeds: [embed] })
 }

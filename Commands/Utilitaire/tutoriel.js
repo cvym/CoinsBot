@@ -12,13 +12,13 @@ exports.run = async (bot, message, args, config, data) => {
     const ArrayDescription = [
         {
             text: `# Commencons par de simples informations:
-            - [CoinsBot](https://discord.gg/7hDfsSZeCK) est un bot économie/rp développé depuis 2021, il existe une [version gratuite](https://discord.gg/7hDfsSZeCK) & des personnalisables
-            - CoinsBot c'est plus de \`271.2k\` joueurs différents
+            - [CoinsBot](https://discord.gg/Kiyun) est un bot économie/rp développé depuis 2024, il existe une [version Wazaaa](https://discord.gg/wazaaa) & des personnalisables
+            - CoinsBot c'est plus de \`2k\` joueurs différents
             - Avec plus de **100 commandes** ce bot est rapidement addictif car facile d'utilisation
             - La monnaie de ce bot est le \`coins\` :coin:
             - Le prefix du bot sur ce serveur est \`${data.prefix}\` il faudra le mettre devant chacune des commandes que vous faites !\n\n> **Page suivante:** \`Comment jouer ?\``,
             title: `Bienvenue dans le tutoriel de CoinsBot®`,
-            icon: `https://media.discordapp.net/attachments/1249042420163674153/1250433684721500220/1f911.png?ex=666aec9e&is=66699b1e&hm=ff58c9f200b61ac0e833671620dfdbc6b488d5a88bfef93a0b7d860979d426a0&=&format=webp&quality=lossless&width=921&height=921`
+            icon: `https://media.discordapp.net/attachments/1300616641369079819/1320839796775456840/f95a8292c1dd5a9d93229f116ee2f8f3.jpg?ex=676b0f6b&is=6769bdeb&hm=99befc31488745477861ab0a828be22d8f1ae9f5b5363cdbcaba70ae2f2426d3&=&format=webp`
         },
         {
             text: `Pour commencer votre aventure vous pouvez dès maintenant rejoindre un vocal du serveur, en effet le bot vous donnera 0 🪙 chaque 15 minutes de vocal !
@@ -47,7 +47,7 @@ exports.run = async (bot, message, args, config, data) => {
     let page = 0, pageTotal = ArrayDescription.length
     const embed = new Discord.EmbedBuilder()
     .setColor(data.color)
-    .setThumbnail(`https://media.discordapp.net/attachments/1249042420163674153/1250455401724379146/map.jpg?ex=666b00d8&is=6669af58&hm=8873239f1af456369b15b4ca46aa41d2a624be90eaf3efced17b486d6bc30e0c&=&format=webp&width=404&height=404`)
+    .setThumbnail(`https://media.discordapp.net/attachments/1300616641369079819/1320839796775456840/f95a8292c1dd5a9d93229f116ee2f8f3.jpg?ex=676b0f6b&is=6769bdeb&hm=99befc31488745477861ab0a828be22d8f1ae9f5b5363cdbcaba70ae2f2426d3&=&format=webp`)
     .setFooter({ text: `Page ${page + 1}/${pageTotal} ` + config.footerText })
     .setDescription(ArrayDescription[page].text)
     .setAuthor({ name: ArrayDescription[page].title, iconURL: ArrayDescription[page].icon })
@@ -73,12 +73,12 @@ exports.run = async (bot, message, args, config, data) => {
         if(select.customId == "pageBefore") {
             if(page == 0) page = ArrayDescription.length
             page--
-            if(page == 0) select.update({ embeds: [embed.setTitle(null).setThumbnail(`https://media.discordapp.net/attachments/1249042420163674153/1250455401724379146/map.jpg?ex=666b00d8&is=6669af58&hm=8873239f1af456369b15b4ca46aa41d2a624be90eaf3efced17b486d6bc30e0c&=&format=webp&width=404&height=404`).setFooter({ text: `Page ${page + 1}/${pageTotal} ` + config.footerText }).setDescription(ArrayDescription[page].text).setAuthor({ name: ArrayDescription[page].title, iconURL: ArrayDescription[page].icon })] })
+            if(page == 0) select.update({ embeds: [embed.setTitle(null).setThumbnail(https://media.discordapp.net/attachments/1300616641369079819/1320839796775456840/f95a8292c1dd5a9d93229f116ee2f8f3.jpg?ex=676b0f6b&is=6769bdeb&hm=99befc31488745477861ab0a828be22d8f1ae9f5b5363cdbcaba70ae2f2426d3&=&format=webp`).setFooter({ text: `Page ${page + 1}/${pageTotal} ` + config.footerText }).setDescription(ArrayDescription[page].text).setAuthor({ name: ArrayDescription[page].title, iconURL: ArrayDescription[page].icon })] })
             else select.update({ embeds: [embed.setDescription(ArrayDescription[page].text).setTitle(ArrayDescription[page].title2).setFooter({ text: `Page ${page + 1}/${pageTotal} ` + config.footerText }).setAuthor(null)]})
         } else if(select.customId == "pageAfter") {
             if(page == ArrayDescription.length - 1) page = 0 - 1
             page++
-            if(page == 0) select.update({ embeds: [embed.setTitle(null).setThumbnail(`https://media.discordapp.net/attachments/1249042420163674153/1250455401724379146/map.jpg?ex=666b00d8&is=6669af58&hm=8873239f1af456369b15b4ca46aa41d2a624be90eaf3efced17b486d6bc30e0c&=&format=webp&width=404&height=404`).setFooter({ text: `Page ${page + 1}/${pageTotal} ` + config.footerText }).setDescription(ArrayDescription[page].text).setAuthor({ name: ArrayDescription[page].title, iconURL: ArrayDescription[page].icon })] })
+            if(page == 0) select.update({ embeds: [embed.setTitle(null).setThumbnail(`https://media.discordapp.net/attachments/1300616641369079819/1320839796775456840/f95a8292c1dd5a9d93229f116ee2f8f3.jpg?ex=676b0f6b&is=6769bdeb&hm=99befc31488745477861ab0a828be22d8f1ae9f5b5363cdbcaba70ae2f2426d3&=&format=webp`).setFooter({ text: `Page ${page + 1}/${pageTotal} ` + config.footerText }).setDescription(ArrayDescription[page].text).setAuthor({ name: ArrayDescription[page].title, iconURL: ArrayDescription[page].icon })] })
             else select.update({ embeds: [embed.setDescription(ArrayDescription[page].text).setTitle(ArrayDescription[page].title2).setFooter({ text: `Page ${page + 1}/${pageTotal} ` + config.footerText }).setAuthor(null)]})
         }
     })

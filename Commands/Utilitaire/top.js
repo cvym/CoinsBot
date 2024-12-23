@@ -105,7 +105,7 @@ async function LB(message, medit, type) {
         finalLb = await LBpalier(bot, message.guild)
     }
     const embed = new Discord.EmbedBuilder()
-        .setAuthor({ name: `Leaderboard des ${type} sur ${message.guild.name}`, iconURL: "https://media.discordapp.net/attachments/1249042420163674153/1250433684721500220/1f911.png?ex=666aec9e&is=66699b1e&hm=ff58c9f200b61ac0e833671620dfdbc6b488d5a88bfef93a0b7d860979d426a0&=&format=webp&quality=lossless&width=921&height=921" })
+        .setAuthor({ name: `Leaderboard des ${type} sur ${message.guild.name}`, iconURL: "https://cdn.discordapp.com/attachments/1310033382725521488/1320877815725428736/442580f2868f66e09e6c36bbb5e919f2.jpg?ex=676b32d3&is=6769e153&hm=4f98383b61c1ab387eea534fd2fcc584d5453ba8a1c7f2810c8a8f699ebb80d1&" })
         .setDescription(finalLb !== "" ? finalLb : "Aucune donnée")
         .setColor(data.color)
         .setFooter({ text: `${message.member.user.username}`, iconURL: message.member.user.displayAvatarURL({ dynamic: true }) });

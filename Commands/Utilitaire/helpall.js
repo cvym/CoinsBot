@@ -14,7 +14,7 @@ exports.run = async (bot, message, args, config, data) => {
     let camgain = gains.camgain
 
     const page1 = new Discord.EmbedBuilder()
-      .setAuthor({ name: "Page d'aide des commandes", iconURL: "https://media.discordapp.net/attachments/1249042420163674153/1250181494903931001/746614051601252373.png?ex=666a01bf&is=6668b03f&hm=497032e9d771eae49b587f1cd22d3f0f3daceb50b8c87341315005564a8f3f2b&=&format=webp&quality=lossless&width=230&height=230" })
+      .setAuthor({ name: "Page d'aide des commandes", iconURL: "https://media.discordapp.net/attachments/1300616641369079819/1320839796775456840/f95a8292c1dd5a9d93229f116ee2f8f3.jpg?ex=676b0f6b&is=6769bdeb&hm=99befc31488745477861ab0a828be22d8f1ae9f5b5363cdbcaba70ae2f2426d3&=&format=webp" })
       .setColor(data.color)
       .setDescription(`Prefix du serveur: \`${data.prefix}\`
 Utilisez \`${data.prefix}help [commande]\` pour obtenir des informations sur une commande

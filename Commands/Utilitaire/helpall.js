@@ -49,7 +49,7 @@ owner, unowner, setprofil, leave
     
      [\`Support du bot\`](https://discord.gg/wazaaa)  |
      \n> Vous gagnez actuellement \`${voicegain} coins\` toutes les 15 minutes lorsque vous êtes en vocal, \`${streamgain} coins\` lorsque vous êtes en stream  et \`${camgain} coins\` lorsque vous activez votre caméra !`)
-      .setFooter({ text: config.footerText, iconURL: "https://media.discordapp.net/attachments/1249042420163674153/1250182851584851999/1824_coin.png?ex=666a0303&is=6668b183&hm=7f25f4292d2205ce07b210e823a0deccdaff335ee49affac8e96a43ed2c6796b&=&format=webp&quality=lossless&width=921&height=921" })
+      .setFooter({ text: config.footerText, iconURL: "https://media.discordapp.net/attachments/1300616641369079819/1320839796775456840/f95a8292c1dd5a9d93229f116ee2f8f3.jpg?ex=676b0f6b&is=6769bdeb&hm=99befc31488745477861ab0a828be22d8f1ae9f5b5363cdbcaba70ae2f2426d3&=&format=webp" })
       .setImage("https://media.discordapp.net/attachments/1249042420163674153/1250167077378195526/10056.gif?ex=6669f452&is=6668a2d2&hm=435b6f81e5461dc8259ed9a78e8e2245f07fdb48540ad861ab2ef705b8a15cf1&=&width=764&height=35")
       .setTimestamp()
 

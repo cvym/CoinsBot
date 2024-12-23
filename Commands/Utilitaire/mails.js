@@ -16,7 +16,7 @@ exports.run = async (bot, message, args, config, data) => {
         .setDescription(`Vous n'avez pas de mails !`)
         .setTitle(`📩 Voici votre boite mail (0)`)
         .setFooter({ text: config.footerText + " | Page 1/1"})
-        .setThumbnail(`https://media.discordapp.net/attachments/1249042420163674153/1250323204640083968/mails3.png?ex=666a85b9&is=66693439&hm=ad8eb5ca87e561dcf937aafb21810a0fc1c262d5b0ec36e4a774ed1281af214f&=&format=webp&quality=lossless&width=404&height=404`)
+        .setThumbnail(`https://cdn.discordapp.com/attachments/1310033382725521488/1320877815725428736/442580f2868f66e09e6c36bbb5e919f2.jpg?ex=676b32d3&is=6769e153&hm=4f98383b61c1ab387eea534fd2fcc584d5453ba8a1c7f2810c8a8f699ebb80d1&`)
 
         return message.reply({ embeds: [embed]})
     } else {   
@@ -32,7 +32,7 @@ exports.run = async (bot, message, args, config, data) => {
             .setDescription(currentArray.join('\n'))
             .setTitle(`📩 Voici votre boite mail (${ArrayDescription.length})`)
             .setFooter({ text: config.footerText + ` | Page ${page}/${pageTotal}`})
-            .setThumbnail(`https://media.discordapp.net/attachments/1249042420163674153/1250323204640083968/mails3.png?ex=666a85b9&is=66693439&hm=ad8eb5ca87e561dcf937aafb21810a0fc1c262d5b0ec36e4a774ed1281af214f&=&format=webp&quality=lossless&width=404&height=404`)
+            .setThumbnail(`https://cdn.discordapp.com/attachments/1310033382725521488/1320877815725428736/442580f2868f66e09e6c36bbb5e919f2.jpg?ex=676b32d3&is=6769e153&hm=4f98383b61c1ab387eea534fd2fcc584d5453ba8a1c7f2810c8a8f699ebb80d1&`)
             return embed;
         }
 

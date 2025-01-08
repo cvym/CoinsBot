@@ -16,9 +16,9 @@ exports.run = async (bot, message, args, config, data) => {
         const remainingCooldown = cooldownExpiration - Math.floor(Date.now() / 1000);
 
         if (remainingCooldown > 0) {
-            const hours = Math.floor(remainingCooldown / 3600);
-            const minutes = Math.floor((remainingCooldown % 3600) / 60);
-            const seconds = Math.floor(remainingCooldown % 60);
+            const hours = Math.floor(remainingCooldown / 36000);
+            const minutes = Math.floor((remainingCooldown % 36000) / 600);
+            const seconds = Math.floor(remainingCooldown % 600);
 
             const CouldownEmbed = new Discord.EmbedBuilder()
             .setDescription(`🕐 Vous avez déjà \`rob\` quelqu'un\n\nRéessayez dans${hours > 0 ? ` ${hours} heures` : ""}${minutes > 0 ? ` ${minutes} minutes`: ""}${seconds > 0 ? ` ${seconds} secondes` : ""}`)

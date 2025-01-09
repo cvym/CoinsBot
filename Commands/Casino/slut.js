@@ -21,7 +21,7 @@ exports.run = async (bot, message, args, config, data) => {
             const seconds = Math.floor(remainingCooldown % 60);
 
             const CouldownEmbed = new Discord.EmbedBuilder()
-            .setDescription(`🕐 Vous avez déjà \`rep\` récemment\n\nRéessayez dans${hours > 0 ? ` ${hours} heures` : ""}${minutes > 0 ? ` ${minutes} minutes`: ""}${seconds > 0 ? ` ${seconds} secondes` : ""}`)
+            .setDescription(`🕐 Vous avez déjà \`slut\` récemment\n\nRéessayez dans${hours > 0 ? ` ${hours} heures` : ""}${minutes > 0 ? ` ${minutes} minutes`: ""}${seconds > 0 ? ` ${seconds} secondes` : ""}`)
             .setFooter({ text: config.footerText})
             .setColor(data.color)
 

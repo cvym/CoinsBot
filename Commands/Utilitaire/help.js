@@ -23,7 +23,7 @@ exports.run = async (bot, message, args, config, data) => {
         let streamgain = gains.streamgain
         let camgain = gains.camgain
 
-        let page0 = embed(':bust_in_silhouette: **• Serveur Informations**', `> :loud_sound: Vous gagnez \`${voicegain} coins\` toutes les 15 minutes lorsque vous êtes en vocal \n> :movie_camera: Vous gagnez \`${streamgain} coins\` lorsque vous êtes en stream \n> :video_camera: Et vous gagnez \`${camgain} coins\` lorsque vous activez votre caméra !\n\n[\`Serveur\`](https://discord.gg/wazaaa)  | \n_Appuyez sur les flèches ci-dessous pour changer de page !_`, undefined, "https://media.discordapp.net/attachments/1249042420163674153/1250167077378195526/10056.gif?ex=6669f452&is=6668a2d2&hm=435b6f81e5461dc8259ed9a78e8e2245f07fdb48540ad861ab2ef705b8a15cf1&=&width=764&height=35")
+        let page0 = embed(':bust_in_silhouette: **• Serveur Informations**', `> :loud_sound: Vous gagnez \`${voicegain} coins\` toutes les 15 minutes lorsque vous êtes en vocal \n> :movie_camera: Vous gagnez \`${streamgain} coins\` lorsque vous êtes en stream \n> :video_camera: Et vous gagnez \`${camgain} coins\` lorsque vous activez votre caméra !\n\n[\`Serveur\`](https://discord.gg/taki)  | \n_Appuyez sur les flèches ci-dessous pour changer de page !_`, undefined, "https://media.discordapp.net/attachments/1249042420163674153/1250167077378195526/10056.gif?ex=6669f452&is=6668a2d2&hm=435b6f81e5461dc8259ed9a78e8e2245f07fdb48540ad861ab2ef705b8a15cf1&=&width=764&height=35")
         let page1 = embed(':moneybag:  **• Casino**', undefined, subFolders[4])
         let page2 = embed(':game_die: **• Jeux**', undefined, subFolders[7])
         let page3 = embed(':black_joker: **• Cartes**', undefined, subFolders[3])
